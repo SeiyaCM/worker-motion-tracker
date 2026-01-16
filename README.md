@@ -1,2 +1,2 @@
 # worker-motion-tracker
-A motion tracking tool to analyze worker movements and measure cycle times in manufacturing.
+カメラで人作業を撮影して自動的にサイクルタイムを取得する
