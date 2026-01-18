@@ -5,13 +5,16 @@
 | 項目 | 技術スタック | 備考 |
 | :-- | :-- | :-- |
 | 言語 | Python | - |
-| Python Version | 3.12 | MediaPipe 0.10.9との互換性のため |
-| backendフレームワーク | FastAPI | - |
-| frontendフレームワーク | Streamlit | - |
+| Python Version | 3.11 | MediaPipe 0.10.9との互換性のため |
+| backendフレームワーク | [FastAPI](https://fastapi.tiangolo.com/) | - |
+| frontendフレームワーク | [Streamlit](https://streamlit.io/) | - |
 | IaC | AWS CDK | - |
-| プラットフォーム | Amazon Web Service | - |
+| テストフレームワーク | pytest | - |
+| リンター/フォーマッター | Ruff | - |
 | パッケージマネージャー | uv | - |
+| プラットフォーム | Amazon Web Service | - |
 | CI/CD | CodeCommit, CodeBuild, CodeDeploy | - |
+| 認証、ユーザーディレクトリ | Amazon Cognito user pools | - |
 | 骨格検出 | MediaPipe + OpenCV | 作業者の動作追跡 |
 
 ## 参考資料
