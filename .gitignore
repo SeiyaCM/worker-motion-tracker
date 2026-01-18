@@ -1,1 +1,47 @@
 .kiro/settings/mcp.json
+
+# Python仮想環境
+.venv/
+venv/
+env/
+ENV/
+
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# テスト・カバレッジ
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# 骨格検出の結果ファイル
+skeleton-detection-validation/results/images/*.jpg
+skeleton-detection-validation/results/images/*.png
+skeleton-detection-validation/results/videos/*.mp4
+skeleton-detection-validation/results/videos/*.avi
+skeleton-detection-validation/results/reports/*.txt
+skeleton-detection-validation/results/reports/*.md
+
+# テストデータ（サイズが大きいため）
+skeleton-detection-validation/data/images/*.jpg
+skeleton-detection-validation/data/images/*.png
+skeleton-detection-validation/data/videos/*.mp4
+skeleton-detection-validation/data/videos/*.avi
+
+# .gitkeepは残す
+!**/.gitkeep
+
+# MediaPipeキャッシュ
+.mediapipe/
+
+# その他の一時ファイル
+*.egg-info/
+dist/
+build/
