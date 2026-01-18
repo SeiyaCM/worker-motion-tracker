@@ -4,17 +4,16 @@
 ## 技術スタック
 | 項目 | 技術スタック | 備考 |
 | :-- | :-- | :-- |
-| 言語 | Typescript | - |
+| 言語 | Python | - |
+| Python Version | 3.12 | - |
+| backendフレームワーク | FastAPI | - |
+| frontendフレームワーク | Streamlit | - |
+| IaC | AWS CDK | - |
 | プラットフォーム | Amazon Web Service | - |
-| パッケージマネージャー | pnpm | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
+| パッケージマネージャー | uv | - |
+| CI/CD | CodeCommit, CodeBuild, CodeDeploy | - |
 | - | - | - |
 
 ## 参考資料
 - [awslabs](https://github.com/awslabs/mcp/tree/main/src)
+- [OPEの受動取得](https://monoist.itmedia.co.jp/mn/articles/2110/27/news062_3.html)
