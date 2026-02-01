@@ -32,8 +32,8 @@ skeleton-detection-validation/results/reports/*.md
 # テストデータ（サイズが大きいため）
 skeleton-detection-validation/data/images/*.jpg
 skeleton-detection-validation/data/images/*.png
-skeleton-detection-validation/data/videos/*.mp4
-skeleton-detection-validation/data/videos/*.avi
+skeleton-detection-validation/data/videos/
+videos/*
 
 # .gitkeepは残す
 !**/.gitkeep

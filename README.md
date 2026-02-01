@@ -20,3 +20,4 @@
 ## 参考資料
 - [awslabs](https://github.com/awslabs/mcp/tree/main/src)
 - [OPEの受動取得](https://monoist.itmedia.co.jp/mn/articles/2110/27/news062_3.html)
+- [人作業の動画](https://huggingface.co/datasets/builddotai/Egocentric-10K/tree/main)
